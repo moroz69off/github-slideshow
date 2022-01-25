@@ -1,1 +1,1 @@
-# Your GitHub Learning Lab Repository for Introducing GitHu
+# Your GitHub Learning Lab Repository for Introducing GitHub
