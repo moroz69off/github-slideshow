@@ -1,9 +1,9 @@
-timezone:    Europe/Berlin
-future:      false
+timezone:    Europe/Moscow
+future:      true
 # Set baseurl to the base path of the site eg "/mytalk"
-# baseurl:     "/github-slideshow"
+baseurl:     "/github-slideshow"
 # The allowed values are 'rouge', 'pygments' or null.
-highlighter: rouge
+highlighter: null
 # markdown - Valid options are [ maruku | rdiscount | kramdown | redcarpet ]
 markdown:    kramdown
 lsi:         false
@@ -42,11 +42,11 @@ slideNumber:
 ## Note that the new default vertical centering option will break compatibility with slides that were using transitions with backgrounds ("cube" and "page"). To restore the previous behavior, set "center" to "false".
 reveal:
   ## Display controls in the bottom right corner
-  controls: false
+  controls: true
   ## Display a presentation progress bar
   progress: true
   ## Display the page number of the current slide
-  #slideNumber: false
+  slideNumber: true
   ## Push each slide change to the browser history
   history: true
   ## Enable keyboard shortcuts for navigation
@@ -58,7 +58,7 @@ reveal:
   ## Enables touch navigation on devices with touch input
   touch: true
   ## Loop the presentation
-  loop: false
+  loop: true
   ## Change the presentation direction to be RTL
   #rtl: false
   ## Turns fragments on and off globally
@@ -73,19 +73,19 @@ reveal:
   ## Stop auto-sliding after user input
   #autoSlideStoppable: true
   ## Enable slide navigation via mouse wheel
-  #mouseWheel: false
+  mouseWheel: true
   ## Hides the address bar on mobile devices
   #hideAddressBar: true
   ## Opens links in an iframe preview overlay
-  #previewLinks: false
+  previewLinks: true
   ## Transition style (default/cube/page/concave/zoom/linear/fade/none)
   transition: linear
   ## Transition speed (default/fast/slow)
-  #transitionSpeed: default
+  transitionSpeed: default
   ## Transition style for full page slide backgrounds (default/none/slide/concave/convex/zoom)
   backgroundTransition: slide
   ## Number of slides away from the current that are visible
-  #viewDistance: 3
+  viewDistance: 3
   ## Parallax background image (e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'")
   #parallaxBackgroundImage: ''
   ## Parallax background size (CSS syntax, e.g. "2100px 900px")
